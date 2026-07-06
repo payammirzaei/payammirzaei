@@ -1,11 +1,10 @@
 # Hi there, I'm Payam 👋
 
-🎓 Master's Student in Software Engineering @ Hof University  
 
-💼 Mercedes-Benz Full-Stack for AI solution Intern  
 
+💼 Mercedes-Benz Full-Stack Developer for AI solution   
 💻 Full-Stack Developer | Cloud Enthusiast | AI systems  
-
+🎓 Master's Student in Software Engineering @ Hof University  
 🌍 Based in Germany | Open to global opportunities  
 
 <!---
