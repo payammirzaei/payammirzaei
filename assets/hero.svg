@@ -1,0 +1,52 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520"><stop stop-color="#07111F"/><stop offset="1" stop-color="#0A1F2D"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#1B4250" stroke-width="1" opacity=".35"/></pattern>
+  <style>
+    .mono{font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.muted{fill:#7FA0AD}.cyan{fill:#7CE7F7}.green{fill:#63F5A6}.line{stroke:#53D7EA;stroke-width:2;stroke-linecap:round}
+  </style>
+</defs>
+<rect width="1200" height="520" rx="24" fill="url(#bg)"/><rect width="1200" height="520" rx="24" fill="url(#grid)"/>
+<rect x="28" y="24" width="1144" height="472" rx="18" stroke="#244E5A"/>
+<circle cx="56" cy="51" r="6" fill="#63F5A6"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+<text x="74" y="57" class="mono green" font-size="14">PAYAM // ENGINEERING CONTROL SYSTEM</text>
+<text x="1000" y="57" class="mono muted" font-size="12">STATUS: ONLINE</text>
+
+<g transform="translate(70 105)">
+  <text class="mono muted" font-size="13">BOOT SEQUENCE</text>
+  <text y="42" class="mono cyan" font-size="40" font-weight="700">PAYAM MIRZAEI</text>
+  <text y="76" class="mono" fill="#E8F7FA" font-size="18">FULL-STACK × DEVOPS × INDUSTRIAL AI × SOFTWARE ARCHITECTURE</text>
+  <g transform="translate(0 118)" class="mono" font-size="14">
+    <text fill="#7FA0AD">[01] Loading distributed systems</text><text x="340" class="green">OK</text>
+    <text y="28" fill="#7FA0AD">[02] Connecting AI services</text><text x="340" y="28" class="green">OK</text>
+    <text y="56" fill="#7FA0AD">[03] Mounting robotics pipeline</text><text x="340" y="56" class="green">OK</text>
+    <text y="84" fill="#7FA0AD">[04] Starting production runtime</text><text x="340" y="84" class="green">OK</text>
+  </g>
+  <rect y="230" width="430" height="8" rx="4" fill="#153441"/>
+  <rect y="230" width="430" height="8" rx="4" fill="#63F5A6"><animate attributeName="width" values="0;430;430" keyTimes="0;.75;1" dur="3s" repeatCount="indefinite"/></rect>
+  <text y="268" class="mono green" font-size="13">SYSTEM ONLINE <tspan fill="#7FA0AD">// BUILD · SHIP · DEBUG · REPEAT</tspan></text>
+</g>
+
+<g transform="translate(700 120)">
+  <rect width="410" height="300" rx="18" fill="#0A1723" stroke="#2E6571"/>
+  <text x="24" y="34" class="mono muted" font-size="12">LIVE TOPOLOGY</text>
+  <g class="mono" font-size="12">
+    <rect x="24" y="65" width="104" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="46" y="93" class="cyan">RGB-D</text>
+    <rect x="155" y="65" width="104" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="176" y="93" class="cyan">FastAPI</text>
+    <rect x="286" y="65" width="100" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="307" y="93" class="cyan">Redis</text>
+    <rect x="24" y="170" width="104" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="48" y="198" class="cyan">VLM/GPU</text>
+    <rect x="155" y="170" width="104" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="184" y="198" class="cyan">Docker</text>
+    <rect x="286" y="170" width="100" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="307" y="198" class="cyan">React 3D</text>
+  </g>
+  <path d="M128 88H155M259 88H286M76 111V170M207 111V170M336 111V170M128 193H155M259 193H286" class="line" opacity=".6"/>
+  <circle r="5" fill="#63F5A6" filter="url(#glow)"><animateMotion dur="2.2s" repeatCount="indefinite" path="M128 88H286"/></circle>
+  <circle r="5" fill="#7CE7F7" filter="url(#glow)"><animateMotion dur="2.8s" repeatCount="indefinite" path="M76 111V170H286"/></circle>
+  <text x="24" y="260" class="mono muted" font-size="12">packets/sec</text><text x="116" y="260" class="mono green" font-size="12">LIVE</text>
+  <rect x="24" y="274" width="330" height="4" rx="2" fill="#18333E"/>
+  <rect x="24" y="274" width="180" height="4" rx="2" fill="#7CE7F7"><animate attributeName="width" values="100;320;170;290;180" dur="2.4s" repeatCount="indefinite"/></rect>
+</g>
+
+<g opacity=".65"><path d="M0 455H1200" stroke="#214A58"/><rect y="455" width="1200" height="65" fill="#081722"/></g>
+<text x="60" y="490" class="mono muted" font-size="12">GERMANY // SOFTWARE ENGINEERING // INDUSTRIAL SYSTEMS // PRODUCTION-FIRST</text>
+</svg>
