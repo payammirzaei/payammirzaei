@@ -27,7 +27,7 @@ I work across the entire path: **capture → services → messaging → AI infer
 #### `AI INSPECTOR` — Industrial VLM quality inspection
 Agent/VLM-assisted quality inspection with a Dockerized service architecture, FastAPI, Redis queues, MQTT, asynchronous processing and GPU inference.
 
-#### `PCVP / DLR 3D VISUALIZER` — Robot perception in the browser
+#### `Inspection 3D VISUALIZER` — Robot perception in the browser
 A 3D engineering interface for inspecting RGB-D capture, part/box detections, poses, refinement and grasp results. Architecture work includes image handling, MongoDB integration, trigger/capture and box-detection workflows.
 
 #### `LOTFI PIANO` — Full production platform
