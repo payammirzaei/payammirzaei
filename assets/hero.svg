@@ -1,52 +1,50 @@
-<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="540" viewBox="0 0 1200 540" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520"><stop stop-color="#07111F"/><stop offset="1" stop-color="#0A1F2D"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="540"><stop stop-color="#060B14"/><stop offset=".5" stop-color="#081722"/><stop offset="1" stop-color="#0B2230"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#64F5C0" stop-opacity=".18"/><stop offset="1" stop-color="#64F5C0" stop-opacity="0"/></radialGradient>
   <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#1B4250" stroke-width="1" opacity=".35"/></pattern>
-  <style>
-    .mono{font-family: ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.muted{fill:#7FA0AD}.cyan{fill:#7CE7F7}.green{fill:#63F5A6}.line{stroke:#53D7EA;stroke-width:2;stroke-linecap:round}
-  </style>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#183748" stroke-width="1" opacity=".35"/></pattern>
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.w{fill:#EAF8FB}.s{fill:#799AA7}.c{fill:#79E8F7}.g{fill:#64F5C0}.ln{stroke:#57D8E9;stroke-width:2;stroke-linecap:round}</style>
 </defs>
-<rect width="1200" height="520" rx="24" fill="url(#bg)"/><rect width="1200" height="520" rx="24" fill="url(#grid)"/>
-<rect x="28" y="24" width="1144" height="472" rx="18" stroke="#244E5A"/>
-<circle cx="56" cy="51" r="6" fill="#63F5A6"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
-<text x="74" y="57" class="mono green" font-size="14">PAYAM // ENGINEERING CONTROL SYSTEM</text>
-<text x="1000" y="57" class="mono muted" font-size="12">STATUS: ONLINE</text>
+<rect width="1200" height="540" rx="26" fill="url(#bg)"/><rect width="1200" height="540" rx="26" fill="url(#grid)"/><circle cx="915" cy="250" r="250" fill="url(#halo)"/>
+<rect x="26" y="24" width="1148" height="490" rx="19" fill="none" stroke="#214858"/>
+<circle cx="52" cy="51" r="5" class="g"><animate attributeName="opacity" values="1;.2;1" dur="1.3s" repeatCount="indefinite"/></circle>
+<text x="69" y="56" class="m g" font-size="13">PAYAM.OS // SOFTWARE SYSTEMS CONSOLE</text>
+<text x="1000" y="56" class="m s" font-size="12">MODE: PRODUCTION</text>
 
-<g transform="translate(70 105)">
-  <text class="mono muted" font-size="13">BOOT SEQUENCE</text>
-  <text y="42" class="mono cyan" font-size="40" font-weight="700">PAYAM MIRZAEI</text>
-  <text y="76" class="mono" fill="#E8F7FA" font-size="18">FULL-STACK × DEVOPS × INDUSTRIAL AI × SOFTWARE ARCHITECTURE</text>
-  <g transform="translate(0 118)" class="mono" font-size="14">
-    <text fill="#7FA0AD">[01] Loading distributed systems</text><text x="340" class="green">OK</text>
-    <text y="28" fill="#7FA0AD">[02] Connecting AI services</text><text x="340" y="28" class="green">OK</text>
-    <text y="56" fill="#7FA0AD">[03] Mounting robotics pipeline</text><text x="340" y="56" class="green">OK</text>
-    <text y="84" fill="#7FA0AD">[04] Starting production runtime</text><text x="340" y="84" class="green">OK</text>
+<g transform="translate(64 102)">
+  <text class="m s" font-size="12">IDENTITY / PRIORITY ORDER</text>
+  <text y="48" class="m w" font-size="46" font-weight="700">PAYAM MIRZAEI</text>
+  <text y="86" class="m c" font-size="19">SOFTWARE ENGINEER  →  SYSTEM ARCHITECT  →  DEVOPS / CLOUD</text>
+  <text y="116" class="m s" font-size="14">Full-stack systems · distributed services · production infrastructure · AI-enabled products</text>
+
+  <g transform="translate(0 158)" class="m" font-size="14">
+    <text class="s">[01] application architecture</text><text x="300" class="g">READY</text>
+    <text y="30" class="s">[02] backend &amp; distributed services</text><text x="300" y="30" class="g">READY</text>
+    <text y="60" class="s">[03] containers / CI-CD / cloud</text><text x="300" y="60" class="g">READY</text>
+    <text y="90" class="s">[04] observability &amp; production ops</text><text x="300" y="90" class="g">READY</text>
   </g>
-  <rect y="230" width="430" height="8" rx="4" fill="#153441"/>
-  <rect y="230" width="430" height="8" rx="4" fill="#63F5A6"><animate attributeName="width" values="0;430;430" keyTimes="0;.75;1" dur="3s" repeatCount="indefinite"/></rect>
-  <text y="268" class="mono green" font-size="13">SYSTEM ONLINE <tspan fill="#7FA0AD">// BUILD · SHIP · DEBUG · REPEAT</tspan></text>
+  <rect y="282" width="455" height="7" rx="4" fill="#14313D"/><rect y="282" width="455" height="7" rx="4" class="g"><animate attributeName="width" values="0;455;455" keyTimes="0;.7;1" dur="2.6s" repeatCount="indefinite"/></rect>
+  <text y="322" class="m g" font-size="13">SYSTEM ONLINE <tspan class="s">// design → build → automate → ship → observe</tspan></text>
 </g>
 
-<g transform="translate(700 120)">
-  <rect width="410" height="300" rx="18" fill="#0A1723" stroke="#2E6571"/>
-  <text x="24" y="34" class="mono muted" font-size="12">LIVE TOPOLOGY</text>
-  <g class="mono" font-size="12">
-    <rect x="24" y="65" width="104" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="46" y="93" class="cyan">RGB-D</text>
-    <rect x="155" y="65" width="104" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="176" y="93" class="cyan">FastAPI</text>
-    <rect x="286" y="65" width="100" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="307" y="93" class="cyan">Redis</text>
-    <rect x="24" y="170" width="104" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="48" y="198" class="cyan">VLM/GPU</text>
-    <rect x="155" y="170" width="104" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="184" y="198" class="cyan">Docker</text>
-    <rect x="286" y="170" width="100" height="46" rx="9" fill="#102A35" stroke="#347484"/><text x="307" y="198" class="cyan">React 3D</text>
+<g transform="translate(710 103)">
+  <rect width="425" height="350" rx="18" fill="#09141F" stroke="#285766"/>
+  <text x="22" y="32" class="m s" font-size="12">DISTRIBUTED SYSTEM MAP // LIVE</text>
+  <g class="m" font-size="11" text-anchor="middle">
+    <g transform="translate(24 62)"><rect width="103" height="48" rx="9" fill="#102733" stroke="#347283"/><text x="51" y="29" class="c">WEB / UI</text></g>
+    <g transform="translate(161 62)"><rect width="103" height="48" rx="9" fill="#102733" stroke="#347283"/><text x="51" y="29" class="c">API GATEWAY</text></g>
+    <g transform="translate(298 62)"><rect width="103" height="48" rx="9" fill="#102733" stroke="#347283"/><text x="51" y="29" class="c">SERVICES</text></g>
+    <g transform="translate(24 170)"><rect width="103" height="48" rx="9" fill="#102733" stroke="#347283"/><text x="51" y="29" class="c">QUEUE / BUS</text></g>
+    <g transform="translate(161 170)"><rect width="103" height="48" rx="9" fill="#102733" stroke="#347283"/><text x="51" y="29" class="c">DATA LAYER</text></g>
+    <g transform="translate(298 170)"><rect width="103" height="48" rx="9" fill="#102733" stroke="#64F5C0"/><text x="51" y="29" class="g">CONTAINERS</text></g>
+    <g transform="translate(92 278)"><rect width="103" height="48" rx="9" fill="#102733" stroke="#347283"/><text x="51" y="29" class="c">CI / CD</text></g>
+    <g transform="translate(230 278)"><rect width="103" height="48" rx="9" fill="#102733" stroke="#64F5C0"/><text x="51" y="29" class="g">CLOUD / OPS</text></g>
   </g>
-  <path d="M128 88H155M259 88H286M76 111V170M207 111V170M336 111V170M128 193H155M259 193H286" class="line" opacity=".6"/>
-  <circle r="5" fill="#63F5A6" filter="url(#glow)"><animateMotion dur="2.2s" repeatCount="indefinite" path="M128 88H286"/></circle>
-  <circle r="5" fill="#7CE7F7" filter="url(#glow)"><animateMotion dur="2.8s" repeatCount="indefinite" path="M76 111V170H286"/></circle>
-  <text x="24" y="260" class="mono muted" font-size="12">packets/sec</text><text x="116" y="260" class="mono green" font-size="12">LIVE</text>
-  <rect x="24" y="274" width="330" height="4" rx="2" fill="#18333E"/>
-  <rect x="24" y="274" width="180" height="4" rx="2" fill="#7CE7F7"><animate attributeName="width" values="100;320;170;290;180" dur="2.4s" repeatCount="indefinite"/></rect>
+  <path d="M127 86H161M264 86H298M75 110V170M212 110V170M349 110V170M127 194H161M264 194H298M75 218L143 278M349 218L281 278M195 302H230" class="ln" opacity=".45"/>
+  <circle r="5" class="g" filter="url(#glow)"><animateMotion path="M127 86H349V194H212V302H333" dur="4.8s" repeatCount="indefinite"/></circle>
+  <circle r="4" class="c" filter="url(#glow)"><animateMotion path="M75 110V194H349V218L281 278" dur="3.9s" repeatCount="indefinite"/></circle>
 </g>
 
-<g opacity=".65"><path d="M0 455H1200" stroke="#214A58"/><rect y="455" width="1200" height="65" fill="#081722"/></g>
-<text x="60" y="490" class="mono muted" font-size="12">GERMANY // SOFTWARE ENGINEERING // INDUSTRIAL SYSTEMS // PRODUCTION-FIRST</text>
+<text x="64" y="495" class="m s" font-size="12">DOMAIN EXPERIENCE: WEB PLATFORMS · AI SYSTEMS · DATA SPACES · INDUSTRIAL SOFTWARE</text>
 </svg>
