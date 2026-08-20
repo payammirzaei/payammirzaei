@@ -47,7 +47,17 @@ For me DevOps is part of software engineering, not a hand-off after coding: **co
 
 ---
 
-### `04 // SELECTED SYSTEMS`
+### `04 // INFINITE CI/CD FEEDBACK LOOP`
+
+<img src="./assets/cicd-loop.svg" width="100%" alt="Animated infinite CI/CD and DevOps feedback loop" />
+
+CI/CD is not a one-way `commit → deploy` conveyor belt. I treat delivery as a **continuous engineering feedback loop**: code is verified and packaged, infrastructure releases it, production is observed, and telemetry feeds the next architecture and implementation decision.
+
+`CODE` → `VERIFY` → `PACKAGE` → `RELEASE` → `OPERATE` → `OBSERVE` → `IMPROVE` → ∞
+
+---
+
+### `05 // SELECTED SYSTEMS`
 
 <img src="./assets/projects.svg" width="100%" alt="Selected software systems" />
 
@@ -65,7 +75,7 @@ Frontend and developer-experience work around Tractus-X / EDC concepts, APIs, po
 
 ---
 
-### `05 // ENGINEERING TELEMETRY`
+### `06 // ENGINEERING TELEMETRY`
 
 <img src="./assets/telemetry.svg" width="100%" alt="Engineering telemetry" />
 
@@ -86,7 +96,7 @@ class PayamMirzaei:
 
 ---
 
-### `06 // SELECTED PUBLIC BUILDS`
+### `07 // SELECTED PUBLIC BUILDS`
 
 - [`ForgeOPs`](https://github.com/payammirzaei/ForgeOPs) — deployment / DevOps tooling
 - [`tractusx-edc-dashboard`](https://github.com/payammirzaei/tractusx-edc-dashboard) — data-space / Tractus-X UI work
